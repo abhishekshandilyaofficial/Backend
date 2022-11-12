@@ -13,8 +13,8 @@ const server=http.createServer((req, res) =>{{
         if(err){
             console.log(err);
         }else{
-            res.write(fileData);
-            res.end();
+            //res.write(fileData);
+            res.end(fileData);
         }
     })
 }})
