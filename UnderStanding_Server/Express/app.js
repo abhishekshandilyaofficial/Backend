@@ -14,3 +14,4 @@ app.get('/index',function(req, res){
 app.get('/myindex', (req, res) => {
     res.redirect('D:\Backend\Backend\UnderStanding_Server\Express\index.html');
 })
+//app.use() takes no argument and kept at last generally used for 404
